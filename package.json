@@ -1,0 +1,41 @@
+{
+  "name": "ore",
+  "version": "0.0.1",
+  "description": "Open Rights Engine (ORE) – self-custodial encryption and access control for music and media.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"No tests yet\""
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "crypto",
+    "music",
+    "web3",
+    "rights",
+    "encryption",
+    "ore"
+  ],
+  "author": "Matt Thurling",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattthurling/ore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattthurling/ore/issues"
+  },
+  "homepage": "https://github.com/mattthurling#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
