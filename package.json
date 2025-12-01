@@ -1,6 +1,6 @@
 {
-  "name": "ore",
-  "version": "0.0.1",
+  "name": "@mattthurling/ore",
+  "version": "0.0.5",
   "description": "Open Rights Engine (ORE) – self-custodial encryption and access control for music and media.",
   "main": "dist/index.js",
   "module": "dist/index.js",
